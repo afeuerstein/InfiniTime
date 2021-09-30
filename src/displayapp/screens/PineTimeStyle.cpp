@@ -52,9 +52,8 @@ PineTimeStyle::PineTimeStyle(DisplayApp* app,
     notificatioManager {notificatioManager},
     settingsController {settingsController},
     motionController {motionController} {
-
-  // This sets the watchface number to return to after leaving the menu
-  settingsController.SetClockFace(2);
+  /* This sets the watchface number to return to after leaving the menu */
+  settingsController.SetClockFace(4);
 
   displayedChar[0] = 0;
   displayedChar[1] = 0;
